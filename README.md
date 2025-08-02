@@ -1,11 +1,12 @@
 # hormiga_de_langton
 Pasos:
 1.-
-Abrir terminal Ubuntu para entrar en el directorio del archivo hormiga_langton usando:
+Abrir terminal Ubuntu (Cabe aclarar, tener el WSL actualizado y en su 2da versión, y las librerias opencv4 bien instaladas) para entrar en el directorio del archivo hormiga_langton usando:
 
 cd ~/hormiga_langton
 
 2.-
+
 Compilar dentro de la carpeta ~/hormiga_langton usando:
 
 g++ -std=c++17 hormiga.cpp -o hormiga `pkg-config --cflags --libs opencv4`
